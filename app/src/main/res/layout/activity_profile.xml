@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".profile"
+    android:orientation="vertical">
+    <RelativeLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="250dp">
+        
+        <LinearLayout
+            android:background="@color/lightgreen"
+            android:layout_width="match_parent"
+            android:layout_height="200dp">
+
+            <ImageView
+
+                android:id="@+id/addpicImg"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:layout_gravity="center_horizontal"
+
+                android:paddingTop="25dp"
+                android:src="@drawable/user" />
+
+        </LinearLayout>
+
+        <TextView
+
+            android:id="@+id/nameviewTxt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="50dp"
+            android:layout_marginTop="100dp"
+            android:text="Harshana Gamage"
+            android:textColor="@android:color/darker_gray"
+            android:textSize="30dp" />
+
+
+    </RelativeLayout>
+
+    <LinearLayout
+        android:id="@id/emailtxt"
+        android:layout_width="360dp"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:paddingLeft="45dp">
+
+            <ImageView
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:src="@drawable/namei" />
+
+            <TextView
+                android:id="@+id/nametxt"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:paddingLeft="20dp"
+                android:text="Hashana Gamage"
+                android:textStyle="bold" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="18dp"
+            android:orientation="horizontal"
+            android:paddingLeft="45dp">
+
+            <ImageView
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:src="@drawable/phonei" />
+
+            <TextView
+                android:id="@+id/phonetxt"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:paddingLeft="20dp"
+                android:text="071 345 6754"
+                android:textStyle="bold" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="18dp"
+            android:orientation="horizontal"
+            android:paddingLeft="45dp">
+
+            <ImageView
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:src="@drawable/emaili" />
+
+            <TextView
+                android:id="@+id/emailtxt"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:paddingLeft="20dp"
+                android:text="harshanag@gmail.com"
+                android:textStyle="bold" />
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_gravity="center"
+        android:paddingLeft="60dp"
+        >
+
+        <Button
+            android:id="@+id/updatebtn"
+            android:layout_width="280dp"
+            android:layout_height="40dp"
+            android:layout_marginTop="25dp"
+            android:background="@color/colorPrimary"
+
+            android:text="Update"
+            android:textColor="@color/colorWhite" />
+
+        <Button
+            android:id="@+id/dltBtn"
+            android:layout_width="280dp"
+            android:layout_height="40dp"
+            android:layout_marginTop="10dp"
+            android:background="@android:color/holo_blue_light"
+            android:text="Delete"
+            android:textColor="@color/colorWhite" />
+    </LinearLayout>
+
+</LinearLayout>
+
+
+
+
+
+
