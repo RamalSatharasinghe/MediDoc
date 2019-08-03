@@ -13,4 +13,10 @@
         <item name="windowNoTitle">true</item>
     </style>
 
+    <style name="textboxReg">
+    
+
+            
+        
+    </style>
 </resources>

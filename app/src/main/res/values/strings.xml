@@ -3,4 +3,29 @@
     <string name="navigation_drawer_open">Open navigation drawer</string>
     <string name="navigation_drawer_close">Close navigation drawer</string>
     <string name="head">MediDoc</string>
+    <string name="uname">Username</string>
+    <string name="pword">Password</string>
+    <string name="lgin">Login</string>
+    <string name="welcm">Welcome back to MediDoc</string>
+    <string name="regbtntxt">Register now</string>
+    <string name="forgtpwlink">Forgot Password?</string>
+    <string name="regtxt">Register</string>
+    <string name="nametxt">Full Name</string>
+    <string name="nictxt">NIC</string>
+    <string name="phntxt">Phone</string>
+    <string name="mailtxt">Email</string>
+    <string name="conpasstxt">Confirm Password</string>
+    <string name="crtacctxt">Create Your Account</string>
+    <string name="crtaccmsgtxt">Join with MediDoc!</string>
+    <string name="rstpwtxt">Reset your Password?</string>
+    <string name="newpwtxt">New Password</string>
+    <string name="mailhint">Email</string>
+    <string name="pwhint">Password</string>
+    <string name="ok">Reset Password</string>
+    <string name="updte">Edit Profile</string>
+    <string name="updteNow">Edit Now</string>
+
+
+
+
 </resources>

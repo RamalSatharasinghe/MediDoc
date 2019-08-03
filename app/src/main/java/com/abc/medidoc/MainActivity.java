@@ -1,5 +1,6 @@
 package com.abc.medidoc;
 
+import android.content.Intent;
 import android.support.v4.view.GravityCompat;
 import android.support.v4.widget.DrawerLayout;
 import android.support.v7.app.ActionBarDrawerToggle;
@@ -16,6 +17,7 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
+
         Toolbar toolbar = findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
 
@@ -25,7 +27,9 @@ public class MainActivity extends AppCompatActivity {
 
         drawer.addDrawerListener(toggle);
         toggle.syncState();
-    }
+    if (savedInstanceState == null){
+        getSupportFragmentManager().beginTransaction().replace(R.id.fragment_container,new LoginFragment()).commit();
+    }}
 
     @Override
     public void onBackPressed() {
