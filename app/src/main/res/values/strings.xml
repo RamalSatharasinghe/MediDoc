@@ -3,4 +3,25 @@
     <string name="navigation_drawer_open">Open navigation drawer</string>
     <string name="navigation_drawer_close">Close navigation drawer</string>
     <string name="head">MediDoc</string>
+    <string name="welcome">Welcome to MediDoc</string>
+    <string name="doc">Doctor Name</string>
+    <string name="special">Specialization</string>
+    <string name="hospital">Hospital</string>
+    <string name="date">Date</string>
+    <string name="ok">Submit</string>
+    <string name="channel">Channel Your Doctor</string>
+    <string name="channel_details">Channel Details</string>
+    <string name="time">Time</string>
+    <string name="price">Charge</string>
+    <string name="confirm">Confirm</string>
+    <string name="channel_num">Channel No</string>
+    <string name="payment">Payment Details</string>
+    <string name="card_num">Card Number</string>
+    <string name="exp_date">Expiration Date</string>
+    <string name="cv_code">CV Code</string>
+    <string name="owner">Card Owner</string>
+    <string name="pay">Process Payment</string>
+    <string name="update">Update</string>
+    <string name="delete">Delete</string>
+    <string name="save">Save</string>
 </resources>
