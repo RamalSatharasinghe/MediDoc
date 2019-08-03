@@ -9,7 +9,9 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".DocProfile1"></activity>
+        <activity android:name=".EditPro"></activity>
+        <activity android:name=".LoginK" />
+        <activity android:name=".DocProfile1" />
         <activity android:name=".DoctorList" />
         <activity android:name=".Diseases" />
         <activity
