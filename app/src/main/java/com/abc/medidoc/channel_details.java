@@ -18,7 +18,7 @@ public class channel_details extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_channel_details);
 
-        btn2 = findViewById(R.id.button);
+        btn2 = findViewById(R.id.updtbtn);
         btn3 = findViewById(R.id.button4);
         btn4 = findViewById(R.id.button5);
 
@@ -44,7 +44,7 @@ public class channel_details extends AppCompatActivity {
             public void onClick(View view) {
                 Toast.makeText(channel_details.this,"Successfully Deleted",Toast.LENGTH_SHORT).show();
 
-               /* Intent intent2 = new Intent(channel_details.this,fragment_channel.class);
+              /* Intent intent2 = new Intent(channel_details.this,fragment_channel.class);
                 startActivity(intent2);*/
             }
         });

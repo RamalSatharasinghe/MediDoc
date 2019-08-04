@@ -9,14 +9,38 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".MainActivity"
+        <activity android:name=".loginUser"></activity>
+        <activity android:name=".updateProf" />
+        <activity
+            android:name=".MainActivity"
             android:theme="@style/AppTheme.NoActionBar">
+
+        </activity>
+        <activity android:name=".Register" />
+        <activity android:name=".profile" />
+        <activity android:name=".payment_details" />
+        <activity android:name=".forgotpassword" />
+        <activity android:name=".channel_details" />
+        <activity android:name=".fragment_channel" />
+        <activity android:name=".SplashScreenActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+
+        <activity android:name=".fragment_signin" />
+        <activity android:name=".update_channel" />
+        <activity android:name=".DocProfile1"/>
+        <activity android:name=".DoctorList"/>
+        <activity android:name=".Diseases"/>
+        <activity android:name=".EditPro"/>
+        <activity android:name=".medicineUpdate"></activity>
+        <activity android:name=".medicineDis" />
+        <activity android:name=".orderMedicine" />
+
+
     </application>
 
 </manifest>

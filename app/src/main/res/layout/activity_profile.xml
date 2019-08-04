@@ -33,7 +33,7 @@
             android:id="@+id/nameviewTxt"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginLeft="50dp"
+            android:layout_marginLeft="80dp"
             android:layout_marginTop="100dp"
             android:text="Harshana Gamage"
             android:textColor="@android:color/darker_gray"
@@ -119,18 +119,18 @@
 
     <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:layout_height="match_parent"
         android:orientation="vertical"
-        android:layout_gravity="center"
+        android:layout_marginTop="35dp"
         android:paddingLeft="60dp"
         >
 
         <Button
             android:id="@+id/updatebtn"
             android:layout_width="280dp"
-            android:layout_height="40dp"
+            android:layout_height="44dp"
             android:layout_marginTop="25dp"
-            android:background="@color/colorPrimary"
+            android:background="@color/colorAccent"
 
             android:text="Update"
             android:textColor="@color/colorWhite" />
@@ -138,9 +138,9 @@
         <Button
             android:id="@+id/dltBtn"
             android:layout_width="280dp"
-            android:layout_height="40dp"
-            android:layout_marginTop="10dp"
-            android:background="@android:color/holo_blue_light"
+            android:layout_height="44dp"
+            android:layout_marginTop="45dp"
+            android:background="@color/colorAccent"
             android:text="Delete"
             android:textColor="@color/colorWhite" />
     </LinearLayout>

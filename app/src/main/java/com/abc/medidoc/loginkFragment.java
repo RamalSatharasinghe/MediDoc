@@ -11,35 +11,27 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.Button;
 
-public class ChannelFragment extends Fragment {
-
+public class loginkFragment extends Fragment {
     Activity context;
-
     @Nullable
     @Override
     public View onCreateView(@NonNull LayoutInflater inflater, @Nullable ViewGroup container, @Nullable Bundle savedInstanceState) {
-
         context=getActivity();
-        return inflater.inflate(R.layout.activity_fragment_channel,container,false);
-
-
-
+        return inflater.inflate(R.layout.activity_login_k,container,false);
     }
-
 
     @Override
     public void onStart() {
         super.onStart();
-        Button bt=(Button)context.findViewById(R.id.btn1);
 
-        bt.setOnClickListener(new View.OnClickListener() {
+        Button loginBtn = (Button)context.findViewById(R.id.lgbtn);
+        loginBtn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-
-                Intent intent=new Intent(context,loginUser.class);
+                Intent intent = new Intent(context,EditPro.class);
                 startActivity(intent);
-
             }
         });
     }
 }
+

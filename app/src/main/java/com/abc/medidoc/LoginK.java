@@ -6,23 +6,23 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 
-public class fragment_channel extends AppCompatActivity {
+public class LoginK extends AppCompatActivity {
 
-    Button button1;
+    Button log1;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_fragment_channel);
+        setContentView(R.layout.activity_login);
 
-        button1 = findViewById(R.id.btn1);
-        button1.setOnClickListener(new View.OnClickListener() {
+        log1 = findViewById(R.id.lgbtn);
+        log1.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent intent = new Intent(fragment_channel.this,loginUser.class);
+
+                Intent intent = new Intent(LoginK.this,EditPro.class);
                 startActivity(intent);
             }
         });
-
-          }
+    }
 }

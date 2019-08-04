@@ -14,9 +14,11 @@
 
         <item android:id="@+id/nav_profile"
             android:icon="@drawable/signin"
-            android:title="SignIn"></item>
+            android:title="SignIn as Patient"></item>
 
-
+        <item android:id="@+id/nav_profile_Doc"
+            android:icon="@drawable/signin"
+            android:title="SignIn as Doctor"></item>
 
         <item android:id="@+id/nav_list"
             android:icon="@drawable/ic_list"
@@ -38,9 +40,7 @@
             android:icon="@drawable/ic_contact"
             android:title="contact Us"></item>
 
-        <item android:id="@+id/nav_share"
-            android:icon="@drawable/share"
-            android:title="Share"></item>
+
     </group>
 
 </menu>
