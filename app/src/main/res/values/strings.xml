@@ -3,4 +3,18 @@
     <string name="navigation_drawer_open">Open navigation drawer</string>
     <string name="navigation_drawer_close">Close navigation drawer</string>
     <string name="head">MediDoc</string>
+    <string name="med_name">Name</string>
+    <string name="med_no">Contact No</string>
+    <string name="med_address">Address</string>
+    <string name="med_notes">Notes</string>
+    <string name="med_pre">Add Prescription</string>
+    <string name="med_pic">Choose Prescription</string>
+    <string name="med_btn">Submit</string>
+    <string name="med">Medicine To DoorStep</string>
+    <string name="med_list">My Orders</string>
+    <string name="med_save">Save Changers</string>
+    <string name="med_order_details">Order Details</string>
+    <string name="med_order_update">Update</string>
+    <string name="med_order_del">Delete</string>
+    <string name="med_update_title">Update Your  Order</string>
 </resources>
