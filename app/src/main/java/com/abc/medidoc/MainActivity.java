@@ -58,7 +58,7 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
                 break;
             case R.id.nav_list:
                 getSupportFragmentManager().beginTransaction().replace(R.id.fragment_container,new DiseasesList()).commit();
-                break;
+            break;
 
             case R.id.nav_privacy:
                 Toast.makeText(this,"Privacy",Toast.LENGTH_SHORT).show();

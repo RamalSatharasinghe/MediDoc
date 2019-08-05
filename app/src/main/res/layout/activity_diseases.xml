@@ -31,7 +31,7 @@
         tools:visibility="visible" />
 
     <Button
-        android:id="@+id/button1"
+        android:id="@+id/btnEntSpecialist"
         android:layout_width="181dp"
         android:layout_height="wrap_content"
         android:layout_marginStart="24dp"
@@ -43,14 +43,13 @@
         android:background="@color/colorAccent"
         android:text="ent specialist"
         android:textColor="@android:color/white"
-        android:visibility="visible"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.483"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView"
         app:layout_constraintVertical_bias="0.05"
-        tools:visibility="visible" />
+        />
 
     <Button
         android:id="@+id/button2"
@@ -69,7 +68,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.483"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/button1"
+        app:layout_constraintTop_toBottomOf="@+id/btnEntSpecialist"
         app:layout_constraintVertical_bias="0.507" />
 
     <Button

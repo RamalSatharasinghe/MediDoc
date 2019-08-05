@@ -9,15 +9,15 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".loginUser"></activity>
-        <activity android:name=".updateProf" />
+        <activity android:name=".NewDoctorList"></activity>
+        <activity android:name=".loginUser" />
+        <activity android:name=".updateProf" android:parentActivityName=".profile"></activity>
         <activity
             android:name=".MainActivity"
             android:theme="@style/AppTheme.NoActionBar">
-
         </activity>
-        <activity android:name=".Register" />
-        <activity android:name=".profile" />
+        <activity android:name=".Register"></activity>
+        <activity android:name=".profile" android:parentActivityName=".Login"></activity>
         <activity android:name=".payment_details" />
         <activity android:name=".forgotpassword" />
         <activity android:name=".channel_details" />
@@ -29,18 +29,23 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-
         <activity android:name=".fragment_signin" />
         <activity android:name=".update_channel" />
-        <activity android:name=".DocProfile1"/>
-        <activity android:name=".DoctorList"/>
-        <activity android:name=".Diseases"/>
-        <activity android:name=".EditPro"/>
-        <activity android:name=".medicineUpdate"></activity>
+        <activity
+            android:name=".DocProfile1"
+            android:parentActivityName=".DoctorList"/>
+        <activity android:name=".DoctorList" android:parentActivityName=".Diseases">
+
+        </activity>
+        <activity android:name=".Diseases">
+
+        </activity>
+        <activity
+            android:name=".EditPro"
+            android:parentActivityName=".LoginK" >  </activity>
+        <activity android:name=".medicineUpdate" />
         <activity android:name=".medicineDis" />
         <activity android:name=".orderMedicine" />
-
-
     </application>
 
 </manifest>

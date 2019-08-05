@@ -9,8 +9,6 @@ import android.widget.Button;
 public class DoctorList extends AppCompatActivity {
 
     Button button5;
-
-
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
